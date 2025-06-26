@@ -2,51 +2,74 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Filipe Rabello | Contatos</title>
+  <title>Cartão de Visita | Filipe Rabello</title>
   <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
-      background-color: #000;
+      margin: 0;
+      padding: 0;
+      background: #000;
       font-family: 'Lexend', sans-serif;
-      color: #fff;
+      color: white;
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .card {
+      text-align: center;
       padding: 2rem;
     }
-    h1 {
-      color: #fff;
+    .name {
       font-size: 2rem;
-      margin-bottom: 0.5rem;
+      color: white;
+      font-weight: 600;
     }
-    h2 {
-      color: orange;
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
-    }
-    .link-button {
-      background-color: orange;
-      color: #000;
-      border: none;
-      padding: 1rem 2rem;
-      margin: 0.5rem;
-      border-radius: 8px;
-      text-decoration: none;
+    .title {
       font-size: 1rem;
-      display: block;
-      width: 80%;
-      max-width: 400px;
-      text-align: center;
-      transition: background-color 0.3s;
+      color: orange;
+      margin-bottom: 1.5rem;
     }
-    .link-button:hover {
-      background-color: #ffa500;
+    .parcerias {
+      font-size: 2rem;
+      color: white;
+      font-weight: 600;
+    }
+    .geracao {
+      font-size: 1rem;
+      color: orange;
+      margin-bottom: 1.5rem;
+    }
+    .qr {
+      margin: 1rem auto;
+    }
+    .contact {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+    .logo {
+      margin-top: 1rem;
+    }
+    .logo img {
+      width: 120px;
     }
   </style>
 </head>
 <body>
-  <h1>Filipe Rabello</h1>
-  <h2>Executivo Comercial</h2><a href="https://wa.me/5571993012000" class="link-button" target="_blank">Adicionar no WhatsApp</a> <a href="https://www.linkedin.com/in/filipe-montenegro-rabello-2662ab33" class="link-button" target="_blank">Perfil no LinkedIn</a> <a href="https://www.matrixenergia.com/energia-por-assinatura-gd/" class="link-button" target="_blank">Site da Matrix Energia</a>
-
+  <div class="card">
+    <div class="name">Filipe Rabello</div>
+    <div class="title">EXECUTIVO COMERCIAL</div>
+    <div class="parcerias">PARCERIAS</div>
+    <div class="geracao">geração distribuída</div>
+    <div class="qr">
+      <img src="https://filipemrabello.github.io/filipe-links/qr_filipe_rabello_final.png" alt="QR Code" width="200" />
+    </div>
+    <div class="contact">(71) 99301-2000</div>
+    <div class="contact">filipe.rabello@matrixgd.com</div>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Matrix_Energia_Logo.png" alt="Matrix Energia Logo" />
+    </div>
+  </div>
 </body>
 </html>
